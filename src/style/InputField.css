@@ -1,0 +1,33 @@
+.input-field-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 7px;
+  }
+
+  .input-field-container input {
+    width: 50%;
+    background-color: #e6f3ff;
+    padding: 7px;
+    border: 2px solid #d2eaff;
+    border-radius: 7px;
+    font-size: .9rem;
+    color: #1b1b1b;
+  }
+
+  input:focus {
+    outline: #d2eaff;
+  }
+
+  input::placeholder {
+    color: #6186a5;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1rem;
+  }
+  

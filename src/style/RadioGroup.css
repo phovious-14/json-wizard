@@ -1,0 +1,53 @@
+/* RadioGroup.css */
+.radio-group-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 7px;
+}
+
+.radio-group-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.radio-opts {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.radio-option {
+  flex: 1 auto; 
+  margin: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.radio-group-container input {
+  display: none; /* Hide the default radio input */
+}
+
+.radio-group-container label[for] {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #d2eaff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: .9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background color and text color */
+}
+
+.radio-group-container input:checked + label[for] {
+  border: 2px solid #92a7ba;
+  background-color: #daedff;
+  color: #000;
+  font-weight: bold;
+}

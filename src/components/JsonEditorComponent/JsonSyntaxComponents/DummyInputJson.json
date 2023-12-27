@@ -1,0 +1,14 @@
+{
+  "sort": 1,
+  "label": "Pizza Name",
+  "description": "",
+  "validate": {
+    "required": true,
+    "immutable": false
+  },
+  "jsonKey": "name",
+  "uiType": "Input",
+  "icon": "",
+  "level": 0,
+  "placeholder": ""
+}

@@ -1,0 +1,15 @@
+{
+  "sort": 1,
+  "label": "Pizza_type",
+  "description": "",
+  "validate": {
+    "required": true,
+    "immutable": false
+  },
+  "jsonKey": "pizza_type",
+  "uiType": "Group",
+  "icon": "",
+  "level": 0,
+  "placeholder": "",
+  "subParameters": []
+}

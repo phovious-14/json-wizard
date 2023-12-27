@@ -1,0 +1,30 @@
+.select-dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 7px;
+  }
+  
+  select {
+    width: 52.3%;
+    background-color: #e6f3ff;
+    padding: 7px;
+    border: 2px solid #d2eaff;
+    border-radius: 7px;
+    font-size: .9rem;
+    color: #1b1b1b;
+    box-sizing: border-box;
+  }
+
+  select:focus {
+    outline: #d2eaff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1rem;
+  }
+  
