@@ -4,7 +4,7 @@ import Require from "./Require";
 import FormContext from "../../../context/FormContext";
 import Tooltips from "./Tooltips";
 import { Tooltip } from "antd";
-import { InfoCircleFilled } from "@ant-design/icons";
+import { InfoCircleOutlined } from "@ant-design/icons";
 
 const SelectDropdown = ({ data }) => {
   const [selectedOption, setSelectedOption] = useState({
@@ -38,7 +38,9 @@ const SelectDropdown = ({ data }) => {
         {data.description && (
           <Tooltip title={Tooltips(data.label, data.description)}>
             <span>
-              <InfoCircleFilled />
+              <InfoCircleOutlined
+                style={{ fontSize: "14px", marginLeft: "5px" }}
+              />
             </span>
           </Tooltip>
         )}

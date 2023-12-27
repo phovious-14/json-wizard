@@ -4,7 +4,7 @@ import Require from "./Require";
 import FormContext from "../../../context/FormContext";
 import { Tooltip } from "antd";
 import Tooltips from "./Tooltips";
-import { InfoCircleFilled } from "@ant-design/icons";
+import { InfoCircleOutlined } from "@ant-design/icons";
 
 const InputField = ({ data }) => {
   const { handleFormData, formSubmitted } = useContext(FormContext);
@@ -29,7 +29,9 @@ const InputField = ({ data }) => {
         {data.description && (
           <Tooltip title={Tooltips(data.label, data.description)}>
             <span>
-              <InfoCircleFilled />
+              <InfoCircleOutlined
+                style={{ fontSize: "14px", marginLeft: "5px" }}
+              />
             </span>
           </Tooltip>
         )}
